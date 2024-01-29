@@ -88,7 +88,8 @@
     "vfile": "^6.0.1",
     "workerpool": "^8.0.0",
     "ws": "^8.15.1",
-    "yargs": "^17.7.2"
+    "yargs": "^17.7.2",
+	"content": "git+https://github.com/nishanthavva/digital-garden-content.git"
   },
   "devDependencies": {
     "@types/cli-spinner": "^0.2.3",
