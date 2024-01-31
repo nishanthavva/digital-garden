@@ -12,8 +12,8 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
-	"submodule": "git submodule update",
-	"preinstall": "git init && git submodule add -f git@github.com:nishanthavva/digital-garden-content.git ./content",
+	"preinstall": "git submodule add -f git@github.com:nishanthavva/digital-garden-content.git ./content",
+	"submodule": "git init && git submodule update",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
